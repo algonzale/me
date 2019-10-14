@@ -11,8 +11,7 @@ import "./App.css";
 function App() {
   let routes = (
     <Switch>
-      <Route path='/projects' exact render={() => (<Projects />)}/>
-      <Route path='/' exact render={() => (<Home />)}/>
+      <Route path='/' render={() => (<Home />)}/>
     </Switch>
   )
   return (
