@@ -9,14 +9,9 @@ class RightMenu extends Component {
       <div>
         <Menu mode={this.props.mode}>
           <Menu.Item key="login">
-            <NavLink to="/projects" exact>
+            <a href="https://algonzale.github.io/projects/" target="#">
               Projects
-            </NavLink>
-          </Menu.Item>
-          <Menu.Item>
-            <NavLink to="/contact-me" exact>
-              Contact me
-            </NavLink>
+            </a>
           </Menu.Item>
         </Menu>
       </div>
