@@ -9,10 +9,15 @@ import { Icon } from "antd";
 import "./App.css";
 
 function App() {
+  let routes = (
+    <Switch>
+      <Route path='/' render={() => (<Home />)}/>
+    </Switch>
+  )
   return (
     <div className="App">
       <Navbar />
-      <Home />
+      {routes}
     </div>
   );
 }
